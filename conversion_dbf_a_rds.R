@@ -30,13 +30,13 @@ e = read.dbf("R_2018/Bases de datos/ingresos.dbf", as.is = T)
 saveRDS(e, "bases_de_datos/ingresos.rds")
 
 f = read.dbf("R_2018/Bases de datos/poblacion.dbf", as.is = T)
-saveRDS(e, "bases_de_datos/poblacion.rds")
+saveRDS(f, "bases_de_datos/poblacion.rds")
 
 g = read.dbf("R_2018/Bases de datos/trabajos.dbf", as.is = T)
-saveRDS(e, "bases_de_datos/trabajos.rds")
+saveRDS(g, "bases_de_datos/trabajos.rds")
 
 h = read.dbf("R_2018/Bases de datos/viviendas.dbf", as.is = T)
-saveRDS(e, "bases_de_datos/viviendas.rds")
+saveRDS(h, "bases_de_datos/viviendas.rds")
 
 # Comprobamos archivos
 list.files("bases_de_datos/")
